@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: blue;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7); /* Warna latar belakang semi-transparan */
+    border-radius: 10px; /* Membuat sudut container membulat */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"],
+button {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Warna hijau sedikit lebih gelap saat mouse diarahkan */
+}
+
+table {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+table tr td {
+    padding: 5px;
+}
+
+.center {
+    display: inline-block;
+    margin: 5 auto;
+}
+
+.btn-convert{
+    display: inline-block;
+    margin: 5 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#btn-celcius{
+    background-color: blue;
+}
+
+#btn-fahrenheit{
+    background-color: goldenrod;
+    color: black;
+}

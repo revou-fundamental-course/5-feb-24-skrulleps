@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhu Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead><h2>Suhu Converter</h2></thead>
+            <tr>
+                <td> <label for="celsius">Celsius: </label></td>
+                <td> <input type="number" id="celsius" class="hidden" placeholder="Masukkan suhu dalam Celsius"></td>
+            </tr>
+            <tr>
+                <td> <label for="fahrenheit">Fahrenheit: </label></td>
+                <td><input type="number" id="fahrenheit" class="hidden" placeholder="Masukkan suhu dalam Fahrenheit"></td>
+            </tr>
+            <tr>
+                <td>Rumus</td>
+                <td>
+                    <input type="text" name="rumus" id="rumus">
+                </td>
+            </tr>
+            <tr> 
+                <td>
+                    Hasil
+                </td>
+                <td>
+                    <input type="text" name="hasil" id="hasil">
+                </td>
+            </tr>
+        </table>
+        <button class="btn-convert" id="btn-celcius"  class="hidden" onclick="celsiusToFahrenheit()">Convert to Fahrenheit</button>
+        <button class="btn-convert" id="btn-fahrenheit"  class="hidden" onclick="fahrenheitToCelsius()">Convert to Celsius</button>
+        <button class="center" id="btn-hapus" onclick="hapus()">Hapus</button>
+        <button class="center" id="btn-switch" onclick="toggleInputs()">Switch</button>
+        
+        <br>
+       
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
